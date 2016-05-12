@@ -17,7 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-
 	[self.window addSubview:self.controller.view];
 	[self.window makeKeyAndVisible];
     return YES;

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6CA5A6B113810F5A00CD7EEF /* TemplateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA5A6B013810F5A00CD7EEF /* TemplateManager.m */; };
+		6CA5A6B113810F5A00CD7EEF /* TemplateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA5A6B013810F5A00CD7EEF /* TemplateManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6CB628511381840100DE5AFB /* new-box.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6284E1381840100DE5AFB /* new-box.png */; };
 		6CB628521381840100DE5AFB /* new-box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6284F1381840100DE5AFB /* new-box@2x.png */; };
 		6CB628531381840100DE5AFB /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CB628501381840100DE5AFB /* shadow.png */; };
@@ -15,22 +15,23 @@
 		6CC8C094137C02D10076A042 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC8C093137C02D10076A042 /* Foundation.framework */; };
 		6CC8C096137C02D10076A042 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC8C095137C02D10076A042 /* CoreGraphics.framework */; };
 		6CC8C09C137C02D10076A042 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CC8C09A137C02D10076A042 /* InfoPlist.strings */; };
-		6CC8C09F137C02D10076A042 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC8C09E137C02D10076A042 /* main.m */; };
-		6CC8C0A2137C02D10076A042 /* HandwritingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC8C0A1137C02D10076A042 /* HandwritingAppDelegate.m */; };
+		6CC8C09F137C02D10076A042 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC8C09E137C02D10076A042 /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6CC8C0A2137C02D10076A042 /* HandwritingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC8C0A1137C02D10076A042 /* HandwritingAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6CC8C0A5137C02D10076A042 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CC8C0A3137C02D10076A042 /* MainWindow.xib */; };
-		6CC8C0B5137C02F30076A042 /* PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC8C0B4137C02F30076A042 /* PathView.m */; };
-		6CC8C0CF137C08880076A042 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC8C0CD137C08880076A042 /* MainViewController.m */; };
+		6CC8C0B5137C02F30076A042 /* PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC8C0B4137C02F30076A042 /* PathView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6CC8C0CF137C08880076A042 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC8C0CD137C08880076A042 /* MainViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6CC8C0D0137C08880076A042 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CC8C0CE137C08880076A042 /* MainViewController.xib */; };
 		6CC8C0DC137C101F0076A042 /* icon-large.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CC8C0D9137C101F0076A042 /* icon-large.png */; };
 		6CC8C0DD137C101F0076A042 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CC8C0DA137C101F0076A042 /* icon.png */; };
 		6CC8C0DE137C101F0076A042 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CC8C0DB137C101F0076A042 /* icon@2x.png */; };
-		6CC8C0E9137C497E0076A042 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC8C0E8137C497E0076A042 /* Line.m */; };
-		6CC8C0EC137C498E0076A042 /* LineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC8C0EB137C498E0076A042 /* LineSegment.m */; };
+		6CC8C0E9137C497E0076A042 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC8C0E8137C497E0076A042 /* Line.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6CC8C0EC137C498E0076A042 /* LineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC8C0EB137C498E0076A042 /* LineSegment.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6CD9ED71137FE7AC00D75015 /* box-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD9ED6D137FE7AC00D75015 /* box-selected.png */; };
 		6CD9ED72137FE7AC00D75015 /* box-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD9ED6E137FE7AC00D75015 /* box-selected@2x.png */; };
 		6CD9ED73137FE7AC00D75015 /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD9ED6F137FE7AC00D75015 /* box.png */; };
 		6CD9ED74137FE7AC00D75015 /* box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD9ED70137FE7AC00D75015 /* box@2x.png */; };
-		6CD9ED78137FEA3B00D75015 /* BoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD9ED77137FEA3B00D75015 /* BoxView.m */; };
+		6CD9ED78137FEA3B00D75015 /* BoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD9ED77137FEA3B00D75015 /* BoxView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A48FFFB61CE4CFE000C0D397 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A48FFFB51CE4CFE000C0D397 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		6CD9ED70137FE7AC00D75015 /* box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "box@2x.png"; path = "Images/box@2x.png"; sourceTree = "<group>"; };
 		6CD9ED76137FEA3B00D75015 /* BoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxView.h; sourceTree = "<group>"; };
 		6CD9ED77137FEA3B00D75015 /* BoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxView.m; sourceTree = "<group>"; };
+		A48FFFB51CE4CFE000C0D397 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		6CC8C082137C02D00076A042 = {
 			isa = PBXGroup;
 			children = (
+				A48FFFB51CE4CFE000C0D397 /* Default-568h@2x.png */,
 				6CC8C097137C02D10076A042 /* Handwriting */,
 				6CC8C090137C02D10076A042 /* Frameworks */,
 				6CC8C08E137C02D10076A042 /* Products */,
@@ -214,6 +217,7 @@
 		6CC8C084137C02D00076A042 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "JoopleBerry Inc.";
 			};
 			buildConfigurationList = 6CC8C087137C02D00076A042 /* Build configuration list for PBXProject "Handwriting" */;
@@ -243,6 +247,7 @@
 				6CC8C0D0137C08880076A042 /* MainViewController.xib in Resources */,
 				6CC8C0DC137C101F0076A042 /* icon-large.png in Resources */,
 				6CC8C0DD137C101F0076A042 /* icon.png in Resources */,
+				A48FFFB61CE4CFE000C0D397 /* Default-568h@2x.png in Resources */,
 				6CC8C0DE137C101F0076A042 /* icon@2x.png in Resources */,
 				6CD9ED71137FE7AC00D75015 /* box-selected.png in Resources */,
 				6CD9ED72137FE7AC00D75015 /* box-selected@2x.png in Resources */,
@@ -297,8 +302,8 @@
 		6CC8C0A6137C02D10076A042 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -306,7 +311,8 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -314,13 +320,12 @@
 		6CC8C0A7137C02D10076A042 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 			};
@@ -331,10 +336,14 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Handwriting/Handwriting-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Handwriting/Handwriting-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tr.com.yenimedya.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -345,9 +354,13 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Handwriting/Handwriting-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Handwriting/Handwriting-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tr.com.yenimedya.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
