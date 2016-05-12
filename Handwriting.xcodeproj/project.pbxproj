@@ -31,7 +31,6 @@
 		6CD9ED73137FE7AC00D75015 /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD9ED6F137FE7AC00D75015 /* box.png */; };
 		6CD9ED74137FE7AC00D75015 /* box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD9ED70137FE7AC00D75015 /* box@2x.png */; };
 		6CD9ED78137FEA3B00D75015 /* BoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD9ED77137FEA3B00D75015 /* BoxView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A48FFFB61CE4CFE000C0D397 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A48FFFB51CE4CFE000C0D397 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,7 +68,6 @@
 		6CD9ED70137FE7AC00D75015 /* box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "box@2x.png"; path = "Images/box@2x.png"; sourceTree = "<group>"; };
 		6CD9ED76137FEA3B00D75015 /* BoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxView.h; sourceTree = "<group>"; };
 		6CD9ED77137FEA3B00D75015 /* BoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxView.m; sourceTree = "<group>"; };
-		A48FFFB51CE4CFE000C0D397 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +87,6 @@
 		6CC8C082137C02D00076A042 = {
 			isa = PBXGroup;
 			children = (
-				A48FFFB51CE4CFE000C0D397 /* Default-568h@2x.png */,
 				6CC8C097137C02D10076A042 /* Handwriting */,
 				6CC8C090137C02D10076A042 /* Frameworks */,
 				6CC8C08E137C02D10076A042 /* Products */,
@@ -247,7 +244,6 @@
 				6CC8C0D0137C08880076A042 /* MainViewController.xib in Resources */,
 				6CC8C0DC137C101F0076A042 /* icon-large.png in Resources */,
 				6CC8C0DD137C101F0076A042 /* icon.png in Resources */,
-				A48FFFB61CE4CFE000C0D397 /* Default-568h@2x.png in Resources */,
 				6CC8C0DE137C101F0076A042 /* icon@2x.png in Resources */,
 				6CD9ED71137FE7AC00D75015 /* box-selected.png in Resources */,
 				6CD9ED72137FE7AC00D75015 /* box-selected@2x.png in Resources */,
